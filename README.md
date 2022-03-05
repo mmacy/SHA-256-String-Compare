@@ -139,3 +139,5 @@ If the project was attempted again, a more efficient approach would be to spend 
 ### Conclusions
 
 The two strings that scored the closest to the objective scored 22 points as they strike a balance between the sentence making the most conceivable sense and the  higher end scores the algorithm can produce over time.
+
+
