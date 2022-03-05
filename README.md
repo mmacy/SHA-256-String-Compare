@@ -40,9 +40,7 @@ Through this, the sentence generator was separated into three smaller sections. 
 
 This allowed for better control of the sentence structure and the methods could be adjusted on a smaller level. This also ensured that a repeated sentence was virtually impossible.
 
-For example, at this stage the ‘NP’ section of the string always started with ‘The’. The Java Random class was incorporated and a Boolean returns true of false at random. 
-
-If the Boolean returns false the start of the sentence updates to ‘A’ or ‘An’. To ensure correct grammar is followed a ‘checkNP’ method handles situations where the noun starts with a vowel and acts accordingly.
+For example, at this stage the ‘NP’ section of the string always started with ‘The’. The Java Random class was incorporated and a Boolean returns true of false at random. If the Boolean returns false the start of the sentence updates to ‘A’ or ‘An’. To ensure correct grammar is followed a ‘checkNP’ method handles situations where the noun starts with a vowel and acts accordingly.
 
     public  static  String  getNP(Dictionary  mydictionary){
   
@@ -112,32 +110,23 @@ In the first iterations of the project, the algorithm was set to compare two str
 
 With this in mind, the clear decision was to move towards comparing the sentences within an array. A nested for loop assisted with finding the two sentences that contained the most matches by filling two empty strings with the first and second slots of the hashes and sending them to a ‘check’ method. 
 
-If the result is higher than the previous figure, the sentence strings are updated. 
-An If statement then assists with printing results to the console so a log of sentences can be created. 
-
-It was important to notice how the size of the array increases the time it takes to run the programme exponentially.
+If the result is higher than the previous figure, the sentence strings are updated. An If statement then assists with printing results to the console so a log of sentences can be created. It's important to note how the size of the array increases the time it takes to run the programme exponentially.
 
 ## 3 - Learning Outcomes:
 
 Some of the main points drawn from this project became evident throughout the development of the code. To begin with, the aim was to keep things simple in the early stages and to build up the code over time. 
 
-By developing the sentence generator in a separate file, breaking it into three separate components was more manageable. This allowed the ability to experiment and develop it further without impacting the main code. 
-
-Once it functioned separately it was incorporated back into the main project file so tests could be run to see the results.
+By developing the sentence generator in a separate file, breaking it into three separate components was more manageable. This allowed the ability to experiment and develop it further without impacting the main code. Once it functioned separately it was incorporated back into the main project file so tests could be run to see the results.
 
 Through this, It became apparent that luck plays a large part in most desired outcomes of this nature but any steps and processes you can do to improve your chances are welcomed ones that can produce results. 
 
 The same can be said for the production of Bitcoin which uses similar SHA-256 comparison methods used in this project. Although having better algorithms and higher computation abilities assist the mining process, ultimately luck plays a large factor in creating a block in the Bitcoin blockchain.
 
-To clarify, incorporating a number of random factors in the sentence structure certainly did encourage improvements. However, this meant that at times it sacrificed the likelihood of the sentences making any conceivable sense. 
-
-In the experimental stages of creating sentences it was found that having two adjectives in the same sentence increased the score but also increased the likelihood of the sentence being ridiculous. 
+To clarify, incorporating a number of random factors in the sentence structure certainly did encourage improvements. However, this meant that at times it sacrificed the likelihood of the sentences making any conceivable sense. In the experimental stages of creating sentences it was found that having two adjectives in the same sentence increased the score but also increased the likelihood of the sentence being ridiculous. 
 
 In this case it was safer to gamble with one single adjective amongst a firm structure and try hit upon a result.
 
-As mentioned previously, once a sentence structure was established the ability to move towards higher scores was found.  This in turn, allowed experimentation with the efficiency of the algorithm. 
-
-Although the move from comparing two single strings to comparing strings in an array takes a lot longer, the algorithm was more efficient in producing constant higher scores as it has more resources to pull from.
+As mentioned previously, once a sentence structure was established the ability to move towards higher scores was found.  This in turn, allowed experimentation with the efficiency of the algorithm. Although the move from comparing two single strings to comparing strings in an array takes a lot longer, the algorithm was more efficient in producing constant higher scores as it has more resources to pull from.
 
 ### Limitations:
 
