@@ -10,9 +10,7 @@ To achieve this, a sentence generator would insert a very diverse range of words
 
 To accomplish the goal of finding the two hashes that were as close as possible, early iterations of the code compared two strings using a loop and the results that achieved a certain score were  outputted to the console. 
 
-The results showed that this approach was limited and it was best to move towards working with a different data structure.  Arrays were  incorporated and the generated sentences were placed into the index. 
-
-Although it was a sacrifice in the speed of the algorithm it was clear that higher results were achievable from this point.
+The results showed that this approach was limited and it was best to move towards working with a different data structure.  Arrays were  incorporated and the generated sentences were placed into the index. Although it was a sacrifice in the speed of the algorithm it was clear that higher results were achievable from this point.
 
 The main component required to develop was the random sentence generator. A Java class defined as 'Dictionary' would read in the available words using a text file stored locally on the machine. 
 
