@@ -40,9 +40,7 @@ Through this, the sentence generator was separated into three smaller sections. 
 
 This allowed for better control of the sentence structure and the methods could be adjusted on a smaller level. This also ensured that a repeated sentence was virtually impossible.
 
-For example, at this stage the ‘NP’ section of the string always started with ‘The’. The Java Random class was incorporated and a Boolean returns true of false at random. 
-
-If the Boolean returns false the start of the sentence updates to ‘A’ or ‘An’. To ensure correct grammar is followed a ‘checkNP’ method handles situations where the noun starts with a vowel and acts accordingly.
+For example, at this stage the ‘NP’ section of the string always started with ‘The’. The Java Random class was incorporated and a Boolean returns true of false at random. If the Boolean returns false the start of the sentence updates to ‘A’ or ‘An’. To ensure correct grammar is followed a ‘checkNP’ method handles situations where the noun starts with a vowel and acts accordingly.
 
     public  static  String  getNP(Dictionary  mydictionary){
   
