@@ -1,6 +1,6 @@
 ## 1- Overview
 
-[SHA-256 String Project located on Github](https://github.com/OwenRichards1/CS210-Algorithms-and-Datastructures/tree/main/CS210_Project)
+[SHA-256 String Project located on Github](https://github.com/OwenRichards1/SHA-256-String-Compare)
 
 ### Aims:
 
