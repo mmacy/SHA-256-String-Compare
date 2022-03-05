@@ -110,10 +110,7 @@ In the first iterations of the project, the algorithm was set to compare two str
 
 With this in mind, the clear decision was to move towards comparing the sentences within an array. A nested for loop assisted with finding the two sentences that contained the most matches by filling two empty strings with the first and second slots of the hashes and sending them to a ‘check’ method. 
 
-If the result is higher than the previous figure, the sentence strings are updated. 
-An If statement then assists with printing results to the console so a log of sentences can be created. 
-
-It was important to notice how the size of the array increases the time it takes to run the programme exponentially.
+If the result is higher than the previous figure, the sentence strings are updated. An If statement then assists with printing results to the console so a log of sentences can be created. It's important to note how the size of the array increases the time it takes to run the programme exponentially.
 
 ## 3 - Learning Outcomes:
 
