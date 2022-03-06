@@ -34,12 +34,10 @@ Broadening the structure of the sentences was also desirable so that the sentenc
 
 While conducting research into sentence structures a number of online resources pointed towards Noam Chomsky’s “*Syntactic Structures*”. It became clear that in order to stand a better chance of the sentences making conceivable sense it would be better for them to be broken into two parts, NP & VP, which are outlined in the diagrams below.
 
-<<<<<<< HEAD
 <img title="synStruct1" alt="synStruct1" src="imgs/synStruct1.png" height="200" width="200"> <img title="synStruct2" alt="synStruct2" src="imgs/synStruct2.png" height="200" width="200">
 =======
 
 <img title="synStruct1" alt="synStruct1" src="imgs/synStruct1.png" height="200" width="200"> <img title="synStruct2" alt="synStruct2" src="imgs/synStruct2.png" height="200" width="400">
->>>>>>> e6fdb07965bcaff6b43f70dc8671fff41d25278e
 
 Through this, the sentence generator was separated into three smaller sections. To form a sentence an ‘assemble’ method would be called and within this an ‘NP’ and ‘VP’ method would handle the first and second half of the string independently.
 
@@ -133,11 +131,7 @@ In this case it was safer to gamble with one single adjective amongst a firm str
 
 As mentioned previously, once a sentence structure was established the ability to move towards higher scores was found.  This in turn, allowed experimentation with the efficiency of the algorithm. Although the move from comparing two single strings to comparing strings in an array takes a lot longer, the algorithm was more efficient in producing constant higher scores as it has more resources to pull from.
 
-<<<<<<< HEAD
-### Limitations
-=======
 ### Drawbacks:
->>>>>>> e6fdb07965bcaff6b43f70dc8671fff41d25278e
 
 The drawback to this however is that it takes a lot longer for the desired output to be produced and even when it is produced there is a chance that the sentences will not make any conceivable sense.
 
