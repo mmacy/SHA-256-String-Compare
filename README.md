@@ -34,9 +34,6 @@ Broadening the structure of the sentences was also desirable so that the sentenc
 
 While conducting research into sentence structures a number of online resources pointed towards Noam Chomsky’s “*Syntactic Structures*”. It became clear that in order to stand a better chance of the sentences making conceivable sense it would be better for them to be broken into two parts, NP & VP, which are outlined in the diagrams below.
 
-<img title="synStruct1" alt="synStruct1" src="imgs/synStruct1.png" height="200" width="200"> <img title="synStruct2" alt="synStruct2" src="imgs/synStruct2.png" height="200" width="200">
-=======
-
 <img title="synStruct1" alt="synStruct1" src="imgs/synStruct1.png" height="200" width="200"> <img title="synStruct2" alt="synStruct2" src="imgs/synStruct2.png" height="200" width="400">
 
 Through this, the sentence generator was separated into three smaller sections. To form a sentence an ‘assemble’ method would be called and within this an ‘NP’ and ‘VP’ method would handle the first and second half of the string independently.
