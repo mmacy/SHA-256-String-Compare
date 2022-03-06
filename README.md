@@ -4,7 +4,7 @@
 
 ## 1- Overview
 
-### Aims
+### Aims:
 
 The aim of this project was to develop a Java algorithm that would create syntactically correct sentences at random that could be compared using SHA-256 encoding. The goal was to output two sentences that had the highest amount of matching characters when encoded.
 
@@ -16,7 +16,7 @@ The results showed that this approach was limited and it was best to move toward
 
 The main component required to develop was the random sentence generator. A Java class defined as 'Dictionary' would read in the available words using a text file stored locally on the machine.
 
-### Initial Findings
+### Initial Findings:
 
 It became apparent very early on that in order to make the strings syntactically correct the nouns, verbs and adjectives would have to be inserted into a defined sentence structure. The initial sentence structure was “The noun verb the adjective.” and was modified throughout to develop the complexity of the sentences in line with higher scores being achieved.
 
@@ -30,7 +30,7 @@ The initial process of comparing strings produced sentences that scored a score 
 
 Broadening the structure of the sentences was also desirable so that the sentences produced would increase the probability of a higher comparison being achieved.
 
-## 2 - Code Structure
+## 2 - Code Structure:
 
 While conducting research into sentence structures a number of online resources pointed towards Noam Chomsky’s “*Syntactic Structures*”. It became clear that in order to stand a better chance of the sentences making conceivable sense it would be better for them to be broken into two parts, NP & VP, which are outlined in the diagrams below.
 
@@ -109,7 +109,7 @@ At this stage of development the words text file was updated to be just shy of 6
 
 Although the introduced rules are imperfect, the sentences became a lot closer to making conceivable sense.
 
-### Limitations
+### Limitations:
 
 In the first iterations of the project, the algorithm was set to compare two strings and although it ran millions of tests at a very quick speed the limitations became apparent when it very seldomly scored anything past 19.
 
@@ -145,7 +145,7 @@ The algorithm was run over consecutive nights in hopes of a higher score being a
 
 If the project was attempted again, a more efficient approach would be to spend a lot more time on the words text file and adjust the words within.
 
-### Conclusions
+### Conclusions:
 
 The two strings that scored the closest to the objective scored 22 points as they strike a balance between the sentence making the most conceivable sense and the  higher end scores the algorithm can produce over time.
 
