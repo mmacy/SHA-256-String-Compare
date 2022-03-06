@@ -128,7 +128,7 @@ In this case it was safer to gamble with one single adjective amongst a firm str
 
 As mentioned previously, once a sentence structure was established the ability to move towards higher scores was found.  This in turn, allowed experimentation with the efficiency of the algorithm. Although the move from comparing two single strings to comparing strings in an array takes a lot longer, the algorithm was more efficient in producing constant higher scores as it has more resources to pull from.
 
-### Limitations:
+### Drawbacks:
 
 The drawback to this however is that it takes a lot longer for the desired output to be produced and even when it is produced there is a chance that the sentences will not make any conceivable sense. 
 
